@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://kit.fontawesome.com/ec91070566.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <div id="header">
+      <div class="conatiner">
+        <nav>
+          <img src="logo.png" class="logo" />
+          <ul id="sidemenu">
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#socialmedia">Social Media</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <i class="fas fa-times" onclick= "closemenu()"></i>
+          </ul>
+          <i class="fas fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+          <p>FullStack Web developer</p>
+          <h1>
+            Hi, I'm <span class="name">Anurag </span> <br />
+            Singh <span class="green">From</span> India
+          </h1>
+        </div>
+      </div>
+    </div>
+    <!-- -----------------------about----------------------- -->
+    <div id="about">
+      <div class="container">
+        <div class="row">
+          <div class="about-col1">
+            <img src="photo.png" alt="" />
+          </div>
+          <div class="about-col2">
+            <h1 class="sub-title">About Me</h1>
+            <p>
+              Hi! My Name is Anurag Singh, I’m a web & software developer from Karnataka, India.
+            <div class="tab-titles">
+              <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+              <p class="tab-links" onclick="opentab('Experience')">Experience</p>
+              <p class="tab-links" onclick="opentab('Eduction')">Eduction</p>
+            </div>
+            <div class="tab-content active-tab" id = "skills">
+              <ul class="ul">
+                <li>
+                  <span class="web">Web Development</span><br />Web app
+                  Development
+                </li>
+                <li><span class="web">App Development</span><br />learning</li>
+                <li>
+                  <span class="web">Video editing</span><br />Video editing For
+                  Youtube/Instagram etc.
+                </li>
+              </ul>
+            </div>
+            <div class="tab-content" id="Experience">
+              <ul class="ul">
+                <li>
+                  <span class="web">2021-2022</span><br />Started Coding Journy
+                </li>
+              </ul>
+            </div>
+            <div class="tab-content" id="Eduction">
+              <ul class="ul">
+                <li>
+                  <span class="web">2022-2023</span><br/> Currently Studing in Class 11<sup>th</sup></Span>
+                </li>
+                <li>
+                  <span class="web">Stream</span> <br/> <span> Computer science</span>
+                </li>
+                <li>
+                  <span class="web">2021-2022</span><br/> <span> Passed class 10<sup>th</sup> from Jindal Vidya Mandir(JSW)</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  <!-- -----------------------------------------------projects-------------------------------   -->
+  <div id="projects">
+    <div class="container">
+
+      <h1 class="sub-title">My Projects</h1>
+      <div class="projects-list">
+        <div>
+          <i class="fa-brands fa-python"></i>
+          <h2>Python</h2>
+          <p>Click on learn more to see my all python projects</p>
+          <a href="https://portfolio-anurag-singh-python.netlify.app">learn more</a>
+        </div>
+        <div>
+          <i class="fa-duotone fa-code"></i>
+          <h2>html css</h2>
+          <p>Click on learn more to see my all Html css Projcts</p>
+          <a href="https://portfolio-anurag-singh-html-css.netlify.app">learn more</a>
+        </div>
+        <div>
+          <i class="fa-brands fa-square-js"></i>
+          <h2>Java Script</h2>
+          <p>Click on learn more to see my all JavaScript projects</p>
+          <a href="https://portfolio-anurag-singh-javascript.netlify.app">learn more</a>
+        </div>
+
+      </div>
+
+    </div>
+  </div>
+  <!-- --------------------------------------------Socialmedia------------------------------------- -->
+   <div id="socialmedia">
+    <div class="container">
+      <h1 class="sub-title">My Social-Media</h1>
+      <div class="media-list">
+        <div class="social">
+          <img src="socialmedia1.png" alt="Youtube">
+          <div class="layer">
+            <h3>Youtube</h3>
+            <p>Click Here To Visit My Youtube Channel (Restore codeing-with ANUARG)</p>
+            <a href="https://www.youtube.com/channel/UC44W8_RuSuBg3lzw8Gxjdcw"><i class="fa-solid fa-link"></i></a>
+          </div>
+        </div>
+        <div class="social">
+          <img src="socialmedia2.png" alt="Instagram">
+          <div class="layer">
+            <h3>Instagram</h3>
+            <p>Click Here To Visit My Instagram account (anuragkumar3855)</p>
+            <a href="https://www.instagram.com/anuragkumar3855/"><i class="fa-solid fa-link"></i></a>
+          </div>
+        </div>
+        <!-- </div>
+        <div class="social">
+          <img src="socialmedia3.png" alt="Linkedin"> -->
+          <!-- <div class="layer">
+            <h3>Youtube</h3>
+            <p>Click Here To Visit My Linkedin account</p>
+            <a href="#"><i class="fa-solid fa-link"></i></a> -->
+          </div>
+        </div>
+      </div>
+    </div>
+   </div>
+<!-- ------------------------------------------contact----------------------------------- -->
+<div id="contact">
+  <div class="container">
+    <div class="row">
+      <div class="contact-left">
+        <h1 class="sub-title">Contact Me</h1>
+        <p> <i class="fa-solid fa-paper-plane"></i>  ashu123singh1234@gmail.com</p>
+        <p> <i class="fa-solid fa-square-phone-alt"></i>   Phone No:- 6361343017</p>
+        <div class="social-icons">
+          <a href="https://github.com/AnuragSingh-14/testrepo"> <i class="fab fa-github-square"></i></a>
+          <a href="https://www.instagram.com/anuragkumar3855/"> <i class="fab fa-instagram"></i></a>
+          <a href="https://www.linkedin.com/in/anurag-singh-734748253/"> <i class="fab fa-linkedin"></i></a>
+        </div>
+      </div>
+      <div class="contact-right">
+        <form name="submit-to-google-sheet">
+          <input type="text" name="Name" placeholder="Your Name" required>
+          <input type="email" name="Email" placeholder="Your Email" required>
+          <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+          <button type="submit" class="btn btn2">Submit</button>
+        </form>
+        <span id="msg"></span>
+      </div>
+    </div>
+  </div>
+  <div class="copyright">
+    <p>copyright &copy; Anuarg. Made With 
+ 
+ 
+      <i class="fa-solid fa-heart"></i> By ANurag Singh</p>
+  </div>
+</div>
+
+
+<script>
+ 
+ var tablinks = document.getElementsByClassName("tab-links")
+ var tabcontents = document.getElementsByClassName("tab-content")
+ function opentab(tabname){
+  for(tablink of tablinks){
+    tablink.classList.remove("active-link")
+  }
+  for(tabcontent of tabcontents){
+    tabcontent.classList.remove("active-tab")
+  }
+
+  event.currentTarget.classList.add("active-link")
+  document.getElementById(tabname).classList.add("active-tab")
+ }
+
+
+</script>
+
+<script>
+
+  var sidemenu = document.getElementById("sidemenu")
+
+  function openmenu(){
+    sidemenu.style.right="0"
+  }
+  function closemenu(){
+    sidemenu.style.right="-200px"
+  }
+</script>
+
+<script>
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbz4fExq17dgah7pM5r9LjgZ2xZZTWXgmQZ0KLN2DkUepCQh34RqJf6yJGL-58U-LMnN0g/exec'
+  const form = document.forms['submit-to-google-sheet']
+  const msg = document.getElementById("msg")
+
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => {
+        msg.innerHtml = "Submited Successfully"
+        setTimeout(function(){
+          msg.innerHtml = ""
+        },5000)
+        form.reset()
+      })
+      .catch(error => console.error('Error!', error.message))
+  })
+</script>
+
+  </body>
+</html>
